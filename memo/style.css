@@ -1,0 +1,174 @@
+/*header*/
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #6c757d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;;
+}
+
+h1 a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+
+h1 img {
+    margin-left: 55px;
+}
+
+nav ul {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+/*main*/
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+main > section {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 2.2em;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+main > section > section{
+    flex-basis: 24%;
+}
+
+h3 {
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+article {
+    background-color: #6c757d;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+article > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.app-div-arrow {
+    flex-basis: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+article div h4 {
+    flex-basis: 70%;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+/*footer*/
+footer {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6c757d;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/*buttons */
+button {
+    cursor: pointer;
+}
+
+.app-button-add {
+    width: 36px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: rgb(39, 180, 93);
+    color: white;
+    border-style: none;
+}
+
+.app-button-nav {
+    height: 36px;
+    border-radius: 5px;
+    background-color: #6c757d;
+    color: white;
+    border-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.app-button-nav img {
+    margin-left: 15px;
+}
+
+h3 .app-button-add {
+    margin-right: 15px;
+}
+
+.app-button-arrow {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #6c757d;
+    border-style: solid;
+    border-color: white;
+    color: white;
+}
+
+.app-button-response {
+    border-radius: 5px;
+    height: 36px;
+    background-color: #ffc107;
+    border-style: none;
+}
+
+.app-button-setting {
+    background-color: #6c757d;
+    border-style: none;
+}
+
+.app-button-selected {
+    background-color: #ffc107;
+    color: blue;
+}
+
+.app-button-selected:hover {
+    text-decoration: underline;
+}

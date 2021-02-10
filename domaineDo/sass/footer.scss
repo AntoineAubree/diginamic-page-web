@@ -1,0 +1,15 @@
+footer {
+    hr {
+        border: none;
+        border-top: 1px solid black;
+    }
+    li a {
+        color: black;
+        &:hover {
+            color: black;
+        }
+    }
+    img {
+        width: 100%;
+    }
+}

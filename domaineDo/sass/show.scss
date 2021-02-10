@@ -1,0 +1,22 @@
+.app-main-show {
+    article {
+        &:hover {
+            cursor: pointer;
+            margin-top: -4px;
+            img{
+                -webkit-box-shadow: 0px 6px 14px -3px #000000; 
+                box-shadow: 0px 6px 14px -3px #000000;
+            }
+        }
+        .card-body {
+            background: rgb(0,0,0);
+            background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); 
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .app-show-description {
+        width: 350px;
+    }
+}

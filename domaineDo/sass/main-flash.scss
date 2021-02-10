@@ -1,0 +1,13 @@
+.app-main-flash {
+    h4{
+        a{
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    em {
+        text-decoration: underline;
+        font-style: normal;
+    }
+}

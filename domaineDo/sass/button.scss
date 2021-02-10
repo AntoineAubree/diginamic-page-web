@@ -1,0 +1,131 @@
+.app-btn-none {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.app-btn {
+    @extend .app-btn-none;
+    border-style: solid;
+    border-width: 1px;
+    height: 30px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    i {
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+}
+
+.app-btn-header {
+    @extend .app-btn;
+    color: map-get($theme-colors, "primary");
+    border-color: map-get($theme-colors, "primary");
+    &:hover {
+        color: white;
+        background-color: map-get($theme-colors, "primary");
+    }
+}
+
+.app-btn-nav {
+    @extend .app-btn-none;
+    i {
+        font-size: 2rem;
+    }
+    span {
+        font-size: 0.7rem;
+    }
+}
+
+.app-btn-main {
+    @extend .app-btn;
+    color: map-get($theme-colors, "primary");
+    background-color: white;
+    height: 40px;
+    border-color: map-get($theme-colors, "primary");
+    &:hover {
+        color: white;
+    }
+}
+
+.app-btn-bg-hover-black {
+    @extend .app-btn-main;
+    &:hover {
+        background-color: black;
+    }
+}
+
+.app-btn-bg-hover-primary {
+    @extend .app-btn-main;
+    &:hover {
+        background-color: map-get($theme-colors, "primary");
+    }
+}
+
+.app-btn-bg-hover-primary-all {
+    @extend .app-btn-bg-hover-primary;
+    height: 45px;
+    border-width: 2px;
+    i:before {
+        font-size: 1.2rem;;
+    }
+}
+
+.app-btn-arrow {
+    @extend .app-btn;
+    background-color: map-get($theme-colors, "primary");
+    color: white;
+    border-color: map-get($theme-colors, "primary");
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    i:before {
+        font-size: 1.5rem;;
+    }
+    &:hover {
+        background-color: white;
+        color: map-get($theme-colors, "primary");
+    }
+}
+
+.app-btn-bg-primary-hover-bg-white{
+    @extend .app-btn-main;
+        background-color: map-get($theme-colors, "primary");
+        color: white;
+        border-color: map-get($theme-colors, "primary");
+    &:hover {
+        background-color: white;
+        color: map-get($theme-colors, "primary");
+    }
+}
+
+.app-btn-bg-black-hover-bg-white{
+    @extend .app-btn-main;
+    height: 35px;
+        background-color: black;
+        color: white;
+        border-color: black;
+    &:hover {
+        background-color: white;
+        color: black;
+    }
+}
+
+.app-btn-bg-white-hover-bg-black{
+    @extend .app-btn-main;
+    height: 35px;
+        background-color: white;
+        color: black;
+        border-color: black;
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+    i:before {
+        font-size: 1.1rem;
+    }
+}

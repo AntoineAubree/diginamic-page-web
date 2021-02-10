@@ -1,0 +1,35 @@
+.app-main-article {
+    h3{
+        a{
+            &::after{
+                display: block;
+                border: 6px solid #F74E2D;
+                margin-top: -14px;
+                content: "";
+            }
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    h4{
+        a{
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    .app-card-article-01 {
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%); 
+    }
+    .app-main-article-div-button {
+        width: 250px;;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .app-main-article-02 {
+        display: none;
+    }
+}
